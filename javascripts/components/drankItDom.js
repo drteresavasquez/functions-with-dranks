@@ -1,10 +1,10 @@
 const drankItDom = (object) => {
   $("#app").append(`
-        <div class="col-6">
-            <img src="${object.image}" alt="${object.name}" style="width: 100%;" />
-        </div>
-        <div class="col-6" id="slow-steps">
-        </div>
+      <div class="col-6">
+          <img src="${object.image}" alt="${object.name}" style="width: 100%;" />
+      </div>
+      <div class="col-6" id="slow-steps">
+      </div>
     `);
 
   slowSteps(object);

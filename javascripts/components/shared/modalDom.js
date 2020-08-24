@@ -1,6 +1,6 @@
 /**
  * @param {object} object
- * @param {string} content
+ * @param {htmlString} content
  */
 const modal = (object, content) => {
   return `
